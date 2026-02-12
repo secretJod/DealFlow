@@ -12,3 +12,4 @@ An intelligent community marketplace where users can buy and sell items using an
 - **Frontend**: React.js, Tailwind CSS
 - **Backend**: Django REST Framework
 - **AI Service**: Flask, Semantic Router, Groq API
+
