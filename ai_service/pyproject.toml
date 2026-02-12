@@ -1,0 +1,17 @@
+[project]
+name = "ai-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "flask>=3.1.2",
+    "flask-cors>=6.0.2",
+    "groq>=1.0.0",
+    "langchain-huggingface>=1.2.0",
+    "python-dotenv>=1.2.1",
+    "semantic-router[local]>=0.1.12",
+    "torch>=2.10.0",
+    "transformers>=4.57.6",
+]

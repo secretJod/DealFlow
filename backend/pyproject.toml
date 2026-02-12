@@ -1,0 +1,22 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "suraj", email = "suraj.2201082cs@iiitbh.ac.in" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.0.2",
+    "django-cors-headers>=4.9.0",
+    "djangorestframework>=3.16.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "pillow>=12.1.1",
+    "psycopg2-binary>=2.9.11",
+    "requests>=2.32.5",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.17,<0.9.0"]
+build-backend = "uv_build"
