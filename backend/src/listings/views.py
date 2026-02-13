@@ -1,4 +1,5 @@
 import requests
+import
 import traceback
 from django.db import IntegrityError
 from django.contrib.auth.models import User
@@ -32,7 +33,7 @@ class AIChatView(APIView):
         inventory_text = "\n".join(inventory_items)
 
         # 3. Connect to Flask AI Service
-        flask_url = "http://127.0.0.1:5001/chat"
+        flask_url = os.getenv("FLASK_AI_URL", "http://127.0.0.1:5001/chat")
         payload = {
             "message": user_message,
             "inventory": inventory_text
