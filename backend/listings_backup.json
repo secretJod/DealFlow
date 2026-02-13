@@ -1,0 +1,100 @@
+[
+  {
+    "model": "listings.listing",
+    "pk": 1,
+    "fields": {
+      "title": "iphone",
+      "description": "sdsada",
+      "image": "listing_images/phone_EeQKHDR.jpeg",
+      "price": "40000.00",
+      "category": "Electronics",
+      "location": "mumbai",
+      "owner": 2,
+      "created_at": "2026-02-11T19:54:37.195Z"
+    }
+  },
+  {
+    "model": "listings.listing",
+    "pk": 2,
+    "fields": {
+      "title": "bike",
+      "description": "THIS IS A BIKE",
+      "image": "listing_images/download_zMBV4EC.jpeg",
+      "price": "400000.00",
+      "category": "Vehicles",
+      "location": "JALGOAN",
+      "owner": 2,
+      "created_at": "2026-02-12T05:57:10.568Z"
+    }
+  },
+  {
+    "model": "listings.listing",
+    "pk": 5,
+    "fields": {
+      "title": "Hoodie",
+      "description": "This is a brand new hoodie",
+      "image": "listing_images/hoodie.avif",
+      "price": "300.00",
+      "category": "Fashion",
+      "location": "Pune",
+      "owner": 2,
+      "created_at": "2026-02-12T10:46:32.696Z"
+    }
+  },
+  {
+    "model": "listings.listing",
+    "pk": 6,
+    "fields": {
+      "title": "looking",
+      "description": "23432",
+      "image": "listing_images/phone_GelyOfk.jpeg",
+      "price": "3324.00",
+      "category": "Electronics",
+      "location": "dfsf",
+      "owner": 2,
+      "created_at": "2026-02-12T11:44:51.768Z"
+    }
+  },
+  {
+    "model": "listings.listing",
+    "pk": 7,
+    "fields": {
+      "title": "looking",
+      "description": "23432",
+      "image": "listing_images/phone_XXbRiIC.jpeg",
+      "price": "3324.00",
+      "category": "Electronics",
+      "location": "dfsf",
+      "owner": 2,
+      "created_at": "2026-02-12T11:44:51.768Z"
+    }
+  },
+  {
+    "model": "listings.listing",
+    "pk": 9,
+    "fields": {
+      "title": "Smart TV",
+      "description": "This is 3 years old TV",
+      "image": "listing_images/tv.jpeg",
+      "price": "15000.00",
+      "category": "Electronics",
+      "location": "Bhusawal,MH",
+      "owner": 2,
+      "created_at": "2026-02-12T16:42:53.683Z"
+    }
+  },
+  {
+    "model": "listings.listing",
+    "pk": 10,
+    "fields": {
+      "title": "Refreidgerator",
+      "description": "This is a brand new Friedge",
+      "image": "listing_images/fridge.jpeg",
+      "price": "50000.00",
+      "category": "Electronics",
+      "location": "Bhuswal,MH",
+      "owner": 2,
+      "created_at": "2026-02-12T16:55:31.012Z"
+    }
+  }
+]
